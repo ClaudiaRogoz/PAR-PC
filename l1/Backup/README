@@ -1,0 +1,48 @@
+Rogoz Claudia 321CA
+Tema1- Protocoale de Comunicatie
+Implementare protocol PAR
+
+
+Aceasta tema a presupus implementarea unui protocol PAR ( Positive Acknowledgement with Retransmission Protocol).
+
+***Detalii de implementare***
+
+Pentru implementarea acestui protocol am folosit 2 fisiere:
+
+	*send.c --> contine implementarea emitatorului
+		Emitatorul va contine un numar de secventa curenta pentru a sti ce cadru sa transmita mai departe receptorului. Pentru implementare, m-am ajutat de o structura auxiliara "frame" care contine pe langa campurile len ( lungimea cadrului) , payload (datele efective) , continute si in cadrul structurii msg din "lib.h", si campurile seq (secventa cadrului) si checksum(suma de control).
+		In "send.c", m-am folosit de functiile:
+			-"get_bit" care primeste ca parametrii un caracter si un int si va intoarce bitul de pe pozitia i in reprezentarea binara a char-ului.
+			-"char_to_binary" care primeste ca parametrii un char si intoarce reprezentarea sa binara sub forma de string
+			-"generate_random" care va returna un numar intre 1 si MAX_SIZE ( = 60 )
+		In cadrul functiei main, datele sunt citite din fisierul "date.in", iar informatiile cu privire la algoritmul utilizat sunt scrise in fisierul "log.txt".Fisierul cu datele de iesire sunt scrise de catre receiver in fisierul "date.out".
+		O variabila importanta in implementarea acestui protocol este "next_frame_to_send" - variabila care reprezinta numarul de secventa al cadrului care va urma sa fie trimis.
+		Cat timp in urma citirii din fisier se obtin date, algoritmul se aplica astfel:
+			Se scrie secventa corespunzatoare in payload, se scriu datele (cu o lungime generata aleator intre 0 si 60), urmand apoi checksum-ul care este calculat prin intermediul operatiei xor intre toti octetii prezenti in cadru (0 - numarul_de_octeti_cititi_din_fisier + 1). 
+			Dupa trimiterea cadrului, se asteapta un numar de 25 milisecunde pana cand se primeste raspunsul de la receptor. Daca in acest interval de timp nu se primeste niciun raspuns, cadrul va fi retransmis, iar algoritmul se repeta. Aceeasi situatie se intalneste si in cazul in care checksum-ul nu este corect, sau daca secventa curenta a receptorului nu corespunde cu secventa trimisa de emitator la momentul respectiv. Daca din contra, se satisfac toate conditiile, se trece la transmiterea cadrului urmator prin incrementarea variabilei "next_frame".
+	
+	*recv.c --> contine implementarea receptorului
+		Receptorul contine asemenea emitatorului, structura frame, dar care , ca implementare va fi similara cu msg din "lib.h". Aceasta va contine numai campurile len si payload.
+		Functiile "get_bit", respectiv "char_to_binary" au aceeasi implementare si functionalitate ca si cele 2 functii de sender.c.
+		In momentul in care se primeste un mesaj de la emitator, receiver-ul verifica integritatea mesajului in mod similar generarii checksum-ului din sender.
+		Totodata in implementare am folosit si "sleep" pentru cadrul 3, pentru a testa comportamentul legaturii sender-receiver in cazul in care va aparea un timeout.
+		Mesajele trimise de receiver spre sender sunt de forma seq + checksum ( = seq). In momentul in care apare un checksum invalid, receiver-ul va trimite confirmarea pentru ultimul cadru primit corect.
+		
+***Nota*** 
+	
+	Pentru testul de intrare am generat un text Lorem ipsum de 5 paragrafe, 461 cuvinte si 3156 bytes.
+	Pentru timeout, m-am folosit de functia receive_message_timeout. Ca parametru i-am dat 25ms. In acest interval de timp, transferul se face optim fara producerea de time-out-uri nedorite .In acest interval de timp se socotesc atat intarzierile ce survin in urma transferului (dat in script-ul ./run_experiment DELAY = 1, in acest caz) dar si de timpul necesar prelucrarii datelor. Astfel am socotit intervalul de timp ca fiind dublul intazierilor de transfer al datelor (atat transmiterea emitor-receptor, cat si transmiterea receptor- emitor) adunat la un timp de prelucrare gasit ca fiind approx 23ms.
+	Pentru coruperea pachetelor, am utilizat un procent de 30%. In aceste conditii timpul real de prelucrare a textului generat este in medie de 8.283 secunde. Acest timp a fost generat prin folosirea comenzii unix-> time.
+	Pentru intarzierea pachetelor m-am folosit de timpul de timeout. La 23ms respectiv pe al 24ms apare un timeout in momentul in care lungimea payload-ului trimis se apropie de 60 bytes. In cadrul acestui text pe care l-am generat, la 23ms apar approx 2-3 timeout-uri, iar la 24ms apar approx 2 timeout-uri. Pentru o buna functionare, insa la 25ms nu se vor declansa timeout-uri. Comparativ, ca timpi am obtinut urmatoarele valori pentru 23ms, 24ms respectiv 25ms( desigur aceste valori pot varia ):
+	23ms:
+	  real	0m9.685s
+	  user	0m0.020s
+	  sys	0m0.040s	
+	24ms:
+	  real	0m8.156s
+	  user	0m0.017s
+	  sys	0m0.043s
+	25ms:
+	  real	0m5.214s
+	  user	0m0.007s
+	  sys	0m0.033s

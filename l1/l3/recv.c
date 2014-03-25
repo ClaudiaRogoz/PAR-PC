@@ -1,0 +1,66 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include "lib.h"
+
+#define HOST "127.0.0.1"
+#define PORT 10001
+
+char get_bit(char a, int i) {
+  return (a & (1 << i) ) >> i;
+}
+
+int main(int argc,char** argv){
+  char *pp;
+  char err, sum;
+  int i,j;
+  msg r,t;
+  init(HOST,PORT);
+  
+  memset(&r, 0, sizeof(msg));
+
+  if (recv_message(&r)<0){
+    perror("Receive message");
+    return -1;
+  }
+  
+  my_pkt p;
+  memset(&p, 0, sizeof(my_pkt));
+  memcpy(&p, &r.payload, r.len); 
+  
+  printf("[%s] Got msg with payload: %s\n",argv[0], p.payload);
+  
+  //check
+  pp = &p;
+  err = p.err;
+  p.err = 0;
+  for (i=0; i<r.len; i++)
+    for (j=0; j<8; j++)
+      sum ^= get_bit(*(pp+i),j);
+  
+  if ((sum^err) == 0)
+    sprintf(t.payload,"ACK(%s)",r.payload);
+  else
+    sprintf(t.payload,"NACK(%s)",r.payload);
+
+  t.len = strlen(t.payload+1);
+  send_message(&t);
+ 
+   if (recv_message(&r)<0){
+    perror("Receive message");
+    return -1;
+  }
+  
+  memset(&p, 0, sizeof(my_pkt));
+  memcpy(&p, &r.payload, r.len); 
+  
+  printf("[%s] Got msg with payload: %s\n",argv[0], p.payload); 
+  
+  sprintf(t.payload,"ACK(%s)",r.payload);
+  t.len = strlen(t.payload+1);
+  send_message(&t);
+  
+  return 0;
+}

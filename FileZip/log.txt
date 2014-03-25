@@ -1,0 +1,2057 @@
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 0
+Payload: Lorem ipsum dolor sit amet, consectetur adip
+Checksum: 01100111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 0
+Payload: Lorem ipsum dolor siv amet, consectetur adip
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No -1			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: -1
+Checksum: 11111111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 0
+Payload: Lorem ipsum dolor sit amet, consectetur adip
+Checksum: 01100111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 0
+Payload: Lorem ipsum dolor sit amet, consectetur adip
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 0
+Checksum: 00000000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 1
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 1
+Payload: iscing elit. In vel rhoncus mi. Praesent sagitt
+Checksum: 00111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 1
+Payload: iscing elit. In vel rhoncus mi. Praesent sagitt
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 1
+Checksum: 00000001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 2
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 2
+Payload: is ut nisi in egestas. Maecenas nec commodo est, ac congue
+Checksum: 00110101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 2
+Payload: is ut nisi in egestas. Maecenas nec commodo est, ac congue
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 2
+Checksum: 00000010
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 3
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 3
+Payload:  justo. Vestibulum tortor mauris, fringilla vel lacinia 
+Checksum: 00111011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 3
+Payload:  justo. Vestibulum tortor mauris, fringilla vel lacinia 
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 3
+Checksum: 00000011
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 4
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 4
+Payload: quis, tristique sit amet nulla. Pellentesque eget grav
+Checksum: 01111101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 4
+Payload: quis, tristique sit amet nulla. Pellentesque eget grav
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 4
+Checksum: 00000100
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 5
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 5
+Payload: ida risus, eget placerat nisi. Phasellus dictum lorem te
+Checksum: 00110100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 5
+Payload: ida risus, eget placerat nisi. Phasellus dictum lorem te
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 5
+Checksum: 00000101
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 6
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 6
+Payload: llus, in hendrerit neque lobortis et. Etiam por
+Checksum: 00001010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 6
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 6
+Payload: llus, in hendrerit neque lobortis et. Etiam por
+Checksum: 00001010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 6
+Payload: llus, in hendrerit neque lobortis et. Etiam por
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 6
+Checksum: 00000110
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 7
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 7
+Payload: ta turpis et 
+Checksum: 00111010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 7
+Payload: ta turpis et 
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 7
+Checksum: 00000111
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 8
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 8
+Payload: nibh sempe
+Checksum: 01001011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 8
+Payload: nibh sempe
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 8
+Checksum: 00001000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 9
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 9
+Payload: r,
+Checksum: 01010111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 9
+Payload: r,
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 9
+Checksum: 00001001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 10
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 10
+Payload:  at
+Checksum: 00111111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 10
+Payload:  at
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 10
+Checksum: 00001010
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 11
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 11
+Payload:  fringil
+Checksum: 01011010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 11
+Payload:  fringil
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 11
+Checksum: 00001011
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 12
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 12
+Payload: la leo luctus. Etiam turpis urna, pharetra feugiat 
+Checksum: 01001100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 12
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 12
+Payload: la leo luctus. Etiam turpis urna, pharetra feugiat 
+Checksum: 01001100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 12
+Payload: la leo luctus. Etiam turpis urna, pharetra feugiat 
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 12
+Checksum: 00001100
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 13
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 13
+Payload: augue eu, pulvinar p
+Checksum: 00001001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 13
+Payload: augue eu, pulvinar p
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 13
+Checksum: 00001101
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 14
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 14
+Payload: ellentesque mi. Etiam tr
+Checksum: 00111011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 14
+Payload: ellentesque li. Etiam tr
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 13			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 13
+Checksum: 00001101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 14
+Payload: ellentesque mi. Etiam tr
+Checksum: 00111011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 14
+Payload: ellentesque mi. Etiam tr
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 14
+Checksum: 00001110
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 15
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 15
+Payload: istique posuere purus, non bibendum nibh auctor
+Checksum: 00111101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 15
+Payload: istique posuere purus, non birendum nibh auctor
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 14			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 14
+Checksum: 00001110
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 15
+Payload: istique posuere purus, non bibendum nibh auctor
+Checksum: 00111101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 15
+Payload: istique posuere purus, non bibendum nibh auctor
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 15
+Checksum: 00001111
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 16
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 16
+Payload:  
+Checksum: 00110000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 16
+Payload:  
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 16
+Checksum: 00010000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 17
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 17
+Payload: nec. Ve
+Checksum: 01000100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 17
+Payload: nec. Vu
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 16			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 16
+Checksum: 00010000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 17
+Payload: nec. Ve
+Checksum: 01000100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 1
+Payload: nec. Ve
+Cadrul trimis nu este cel dorit. Voi trimite ACK pentru seq No 16 			(ultimul cadru corect pe care l-am primit)
+Seq No: 16
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 16
+Checksum: 00010000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 17
+Payload: nec. Ve
+Checksum: 01000100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 17
+Payload: nac. Ve
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 16			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 16
+Checksum: 00010000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 17
+Payload: nec. Ve
+Checksum: 01000100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 17
+Payload: nec. Ve
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 17
+Checksum: 00010001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 18
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 18
+Payload: stibulum a cursus tortor. Pellentesque faucibus vesti
+Checksum: 00011101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 18
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 18
+Payload: stibulum a cursus tortor. Pellentesque faucibus vesti
+Checksum: 00011101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 18
+Payload: stibulum a cursus tortor. Pellentesque faucibus vesti
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 18
+Checksum: 00010010
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 19
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 19
+Payload: bulum arcu, et ph
+Checksum: 01110000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 19
+Payload: bulum arcu, et ph
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 19
+Checksum: 00010011
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 20
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 20
+Payload: aretra est r
+Checksum: 00010101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:18 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 20
+Payload: aretra est z
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 19			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:18 2014
+] [receiver] Trimit ACK:
+Seq No: 19
+Checksum: 00010011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 20
+Payload: aretra est r
+Checksum: 00010101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:18 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 20
+Payload: aretra est r
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 20
+Checksum: 00010100
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 21
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 21
+Payload: honcus ut
+Checksum: 00111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 21
+Payload: honcus ut
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 21
+Checksum: 00010101
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 22
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 22
+Payload: . Fusce a mi sit amet nisi d
+Checksum: 00110001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 22
+Payload: . Fusce a mi sit amet nisi d
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 22
+Checksum: 00010110
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 23
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 23
+Payload: ictum port
+Checksum: 01001000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 23
+Payload: ictum port
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 23
+Checksum: 00010111
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 24
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 24
+Payload: a. 
+Checksum: 01110111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 24
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 24
+Payload: a. 
+Checksum: 01110111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 24
+Payload: a. 
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 24
+Checksum: 00011000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 25
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 25
+Payload: Praesent sodales magna in diam suscipit, nec pellen
+Checksum: 01011010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 25
+Payload: Praesent sodales magna in äiam suscipit, nec pellen
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 24			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 24
+Checksum: 00011000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 25
+Payload: Praesent sodales magna in diam suscipit, nec pellen
+Checksum: 01011010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 25
+Payload: Praesent sodales magna in diam suscipit, nec pellen
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 25
+Checksum: 00011001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 26
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 26
+Payload: tes
+Checksum: 01111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 26
+Payload: te3
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 25			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 25
+Checksum: 00011001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 26
+Payload: tes
+Checksum: 01111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 26
+Payload: tes
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 26
+Checksum: 00011010
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 27
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 27
+Payload: que lacus iaculis. Suspendisse enim velit, f
+Checksum: 00110101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 27
+Payload: que lacus iaculis. Suspendisse enim velit, f
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 27
+Checksum: 00011011
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 28
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 28
+Payload: ermentum
+Checksum: 00000001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 28
+Payload: erMentum
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 27			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 27
+Checksum: 00011011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 28
+Payload: ermentum
+Checksum: 00000001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 28
+Payload: ermentum
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 28
+Checksum: 00011100
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 29
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 29
+Payload:  at metus in, fermentum convallis urna. Nunc quis velit 
+Checksum: 00100001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 29
+Payload:  at metus in, fermentum convallis urna. Nunc quis velit 
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 29
+Checksum: 00011101
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 30
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 30
+Payload: ut turpis malesuada volutpat n
+Checksum: 00011110
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 30
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 30
+Payload: ut turpis malesuada volutpat n
+Checksum: 00011110
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 30
+Payload: ut turpis malesuada volutpat n
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 30
+Checksum: 00011110
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 31
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 31
+Payload: on eget magna.
+
+Nulla ullamcorper diam ut o
+Checksum: 00010010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 31
+Payload: on eget magna.
+
+Nulla ullamcorper diam ut o
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 31
+Checksum: 00011111
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 32
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 32
+Payload: rci consequat, quis bibendum tellus facilis
+Checksum: 01011101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 32
+Payload: rci consequat, quis bibendum tellus facilis
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 32
+Checksum: 00100000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 33
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 33
+Payload: is. Sed pulvinar se
+Checksum: 01111010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 33
+Payload: is. Sed pulvinar!se
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 32			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 32
+Checksum: 00100000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 33
+Payload: is. Sed pulvinar se
+Checksum: 01111010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 33
+Payload: is. Sed pulvinar se
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 33
+Checksum: 00100001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 34
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 34
+Payload: m ac quam elementum, ac alique
+Checksum: 00101000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 34
+Payload: m ac quam elementum, cc alique
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 33			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 33
+Checksum: 00100001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 34
+Payload: m ac quam elementum, ac alique
+Checksum: 00101000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 34
+Payload: m ac quam elemdntum, ac alique
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 33			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 33
+Checksum: 00100001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 34
+Payload: m ac quam elementum, ac alique
+Checksum: 00101000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 34
+Payload: m ac quam elementum, ac alique
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 34
+Checksum: 00100010
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 35
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 35
+Payload: t massa posuere. Vivamus ali
+Checksum: 01011000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 35
+Payload: t massa posuere. Vivamus ali
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 35
+Checksum: 00100011
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 36
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 36
+Payload: quam lorem mal
+Checksum: 00110101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 36
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 36
+Payload: quam lorem mal
+Checksum: 00110101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 36
+Payload: quam lorem mal
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 36
+Checksum: 00100100
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 37
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 37
+Payload: esuada metus aliq
+Checksum: 01001101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 37
+Payload: esuada metus áliq
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 36			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 36
+Checksum: 00100100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 37
+Payload: esuada metus aliq
+Checksum: 01001101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 37
+Payload: esuada metus aliq
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 37
+Checksum: 00100101
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 38
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 38
+Payload: uam egestas. Ut sed urna eleifen
+Checksum: 00010000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 38
+Payload: uam egestas. Ut sed urna eleifen
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 38
+Checksum: 00100110
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 39
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 39
+Payload: d, tempor velit a, bibe
+Checksum: 01011101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 39
+Payload: d, tempor velit a, bibe
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 39
+Checksum: 00100111
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 40
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 40
+Payload: ndum metus
+Checksum: 01100000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 40
+Payload: ndum metus
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 40
+Checksum: 00101000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 41
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 41
+Payload: . Suspendisse convallis elit a imp
+Checksum: 00001111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 41
+Payload: . Suspendisse convalnis elit a imp
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 40			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 40
+Checksum: 00101000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 41
+Payload: . Suspendisse convallis elit a imp
+Checksum: 00001111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 41
+Payload: . Suspendisse convallis elit a imp
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 41
+Checksum: 00101001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 42
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 42
+Payload: erdiet aliquam. Donec 
+Checksum: 00000000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 42
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 42
+Payload: erdiet aliquam. Donec 
+Checksum: 00000000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 42
+Payload: erdiet `liquam. Donec 
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 41			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 41
+Checksum: 00101001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 42
+Payload: erdiet aliquam. Donec 
+Checksum: 00000000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 42
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 42
+Payload: erdiet aliquam. Donec 
+Checksum: 00000000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 42
+Payload: erdiet aliquam. Donec 
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 42
+Checksum: 00101010
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 43
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 43
+Payload: euismod lectus lectus, ut hendrerit metus malesuada ut. MorbX
+Checksum: 00010101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 43
+Payload: euismod lectus lectus, ut hendrerit metus malesuada ut. Morb
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 43
+Checksum: 00101011
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 44
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 44
+Payload: i ultrices ultrices fermentum.
+
+Nullam bibend
+Checksum: 00100001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 44
+Payload: i u|trices ultrices fermentum.
+
+Nullam bibend
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 43			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 43
+Checksum: 00101011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 44
+Payload: i ultrices ultrices fermentum.
+
+Nullam bibend
+Checksum: 00100001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 44
+Payload: i ultricms ultrices fermentum.
+
+Nullam bibend
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 43			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 43
+Checksum: 00101011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 44
+Payload: i ultrices ultrices fermentum.
+
+Nullam bibend
+Checksum: 00100001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 44
+Payload: i ultrices ultrices fermentum.
+
+Nullam bibend
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 44
+Checksum: 00101100
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 45
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 45
+Payload: um ut magna iaculis condimentum. Inter
+Checksum: 00010111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:19 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 45
+Payload: um ut magna iaculis condimentum. Inter
+[Mon Mar 24 22:50:19 2014
+] [receiver] Trimit ACK:
+Seq No: 45
+Checksum: 00101101
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 46
+[Mon Mar 24 22:50:19 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 46
+Payload: dum et malesuada fames ac ante ipsum pr
+Checksum: 00010100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:19 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 46
+Payload: dum et malesuada fames ac ante ipsum pr
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 45			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 45
+Checksum: 00101101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 46
+Payload: dum et malesuada fames ac ante ipsum pr
+Checksum: 00010100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 46
+Payload: dum et maldsuada fames ac ante ipsum pr
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 45			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 45
+Checksum: 00101101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 46
+Payload: dum et malesuada fames ac ante ipsum pr
+Checksum: 00010100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 46
+Payload: dum et malesuada fames ac ante ipsum pr
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 46
+Checksum: 00101110
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 47
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 47
+Payload: imis in faucibus. Aliquam suscipit, risus et 
+Checksum: 00101001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 47
+Payload: imis in faucibus. Aliquam suscipit, risus et 
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 47
+Checksum: 00101111
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 48
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 48
+Payload: adipiscing dapibus, nisl sapien pell
+Checksum: 01101100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 48
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 48
+Payload: adipiscing dapibus, nisl sapien pell
+Checksum: 01101100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 48
+Payload: adipiscing dapibus, nisl sapien pell
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 48
+Checksum: 00110000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 49
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 49
+Payload: entesque massa, in feugiat ante
+Checksum: 00001100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 49
+Payload: entesque massa, in feugiat ante
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 49
+Checksum: 00110001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 50
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 50
+Payload:  enim eu felis. Morbi tempus, augue ut aliquet volutpa
+Checksum: 01011101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 50
+Payload:  enim eu felis. Morbi tempus, augue ut aliquet volutpa
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 50
+Checksum: 00110010
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 51
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 51
+Payload: t, odio arcu facilisis erat, sagittis molestie 
+Checksum: 00001010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 51
+Payload: t, odio arcu facilisis erat, sagittis íolestie 
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 50			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 50
+Checksum: 00110010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 51
+Payload: t, odio arcu facilisis erat, sagittis molestie 
+Checksum: 00001010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 51
+Payload: t, odio arcu nacilisis erat, sagittis molestie 
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 50			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 50
+Checksum: 00110010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 51
+Payload: t, odio arcu facilisis erat, sagittis molestie 
+Checksum: 00001010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 51
+Payload: t, odio arcu facilisis erat, sa'ittis molestie 
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 50			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 50
+Checksum: 00110010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 51
+Payload: t, odio arcu facilisis erat, sagittis molestie 
+Checksum: 00001010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 51
+Payload: t, odio arcu facilisis erat, sagittis molestie 
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 51
+Checksum: 00110011
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 52
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 52
+Payload: mauris nunc id elit. Donec feugi
+Checksum: 00011111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 52
+Payload: mauris nunc id elit. Donec feugi
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 52
+Checksum: 00110100
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 53
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 53
+Payload: at eros sed est ultri
+Checksum: 01001101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 53
+Payload: at eros sed est ultri
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 53
+Checksum: 00110101
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 54
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 54
+Payload: cies mollis. Nunc leo velit, venenatis at nunc eget, pulv
+Checksum: 01111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 54
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 54
+Payload: cies mollis. Nunc leo velit, venenatis at nunc eget, pulv
+Checksum: 01111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 54
+Payload: cies mollis. Nunc leo velit, venenatis at nunc eget. pulv
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 53			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 53
+Checksum: 00110101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 54
+Payload: cies mollis. Nunc leo velit, venenatis at nunc eget, pulv
+Checksum: 01111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 54
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 54
+Payload: cies mollis. Nunc leo velit, venenatis at nunc eget, pulv
+Checksum: 01111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 54
+Payload: cies mollis. Nunc0leo velit, venenatis at nunc eget, pulv
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 53			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 53
+Checksum: 00110101
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 54
+Payload: cies mollis. Nunc leo velit, venenatis at nunc eget, pulv
+Checksum: 01111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 54
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 54
+Payload: cies mollis. Nunc leo velit, venenatis at nunc eget, pulv
+Checksum: 01111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 54
+Payload: cies mollis. Nunc leo velit, venenatis at nunc eget, pulv
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 54
+Checksum: 00110110
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 55
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 55
+Payload: inar molestie neque. Suspendisse n
+Checksum: 01001111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 55
+Payload: inar molestie neque. Suspendisse n
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 55
+Checksum: 00110111
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 56
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 56
+Payload: ec 
+Checksum: 00011110
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 56
+Payload: Ec 
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 55			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 55
+Checksum: 00110111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 56
+Payload: ec 
+Checksum: 00011110
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 120
+Payload: ec 
+Cadrul trimis nu este cel dorit. Voi trimite ACK pentru seq No 55 			(ultimul cadru corect pe care l-am primit)
+Seq No: 55
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 55
+Checksum: 00110111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 56
+Payload: ec 
+Checksum: 00011110
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 56
+Payload: ec 
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 56
+Checksum: 00111000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 57
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 57
+Payload: gravida velit, nec vehicula ante. Praesent euismod 
+Checksum: 00101110
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 57
+Payload: gravida velit, nec veHicula ante. Praesent euismod 
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 56			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 56
+Checksum: 00111000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 57
+Payload: gravida velit, nec vehicula ante. Praesent euismod 
+Checksum: 00101110
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 57
+Payload: gravida velit, nec vehicula ante. Praesent euismod 
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 57
+Checksum: 00111001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 58
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 58
+Payload: accumsan mi sed r
+Checksum: 00011011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 58
+Payload: accumsan mi sed ò
+[CHECKSUM ERROR] 
+ Se trimite ACK pentru Seq No 57			(ultimul cadru corect pe care l-am primit)
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 57
+Checksum: 00111001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 58
+Payload: accumsan mi sed r
+Checksum: 00011011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 58
+Payload: accumsan mi sed r
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 58
+Checksum: 00111010
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 59
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 59
+Payload: ut
+Checksum: 00111010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 59
+Payload: ut
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 59
+Checksum: 00111011
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 60
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 60
+Payload: rum. Integer vulputate lectus ut mattis bibend
+Checksum: 01011001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 60
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 60
+Payload: rum. Integer vulputate lectus ut mattis bibend
+Checksum: 01011001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 60
+Payload: rum. Integer vulputate lectus ut mattis bibend
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 60
+Checksum: 00111100
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 61
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 61
+Payload: um.
+
+Quisque tincidunt rhoncus imperdiet. Null
+Checksum: 00110010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 61
+Payload: um.
+
+Quisque tincidunt rhoncus imperdiet. Null
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 61
+Checksum: 00111101
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 62
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 62
+Payload: am blandit pretium est, id lacinia est dictum
+Checksum: 01001010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 62
+Payload: am blandit pretium est, id lacinia est dictum
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 62
+Checksum: 00111110
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 63
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 63
+Payload:  eu. Ut iaculis feugiat orna
+Checksum: 00010111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 63
+Payload:  eu. Ut iaculis feugiat orna
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 63
+Checksum: 00111111
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 64
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 64
+Payload: re. Fusce adipiscing malesuada dui, blandit porta enim mo
+Checksum: 00000100
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 64
+Payload: re. Fusce adipiscing malesuada dui, blandit porta enim mo
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 64
+Checksum: 01000000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 65
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 65
+Payload: lestie
+Checksum: 01000011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 65
+Payload: lestie
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 65
+Checksum: 01000001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 66
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 66
+Payload:  non. Pellentesque consequat sagittis consequat
+Checksum: 00011000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 66
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 66
+Payload:  non. Pellentesque consequat sagittis consequat
+Checksum: 00011000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 66
+Payload:  non. Pellentesque consequat sagittis consequat
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 66
+Checksum: 01000010
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 67
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 67
+Payload: . Integer 
+Checksum: 00101011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 67
+Payload: . Integer 
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 67
+Checksum: 01000011
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 68
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 68
+Payload: sodales, ipsum
+Checksum: 01011001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 68
+Payload: sodales, ipsum
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 68
+Checksum: 01000100
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 69
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 69
+Payload:  et tincidunt luct
+Checksum: 00001000
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:20 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 69
+Payload:  et tincidunt luct
+[Mon Mar 24 22:50:20 2014
+] [receiver] Trimit ACK:
+Seq No: 69
+Checksum: 01000101
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 70
+[Mon Mar 24 22:50:20 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 70
+Payload: us, velit metus porttitor
+Checksum: 00111001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:20 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:21 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 70
+Payload: us, velit metus porttitor
+[Mon Mar 24 22:50:21 2014
+] [receiver] Trimit ACK:
+Seq No: 70
+Checksum: 01000110
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 71
+[Mon Mar 24 22:50:21 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 71
+Payload:  ante, eu fermen
+Checksum: 01010010
+----------------------------------------------------------------
+[Mon Mar 24 22:50:21 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:21 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 71
+Payload:  ante, eu fermen
+[Mon Mar 24 22:50:21 2014
+] [receiver] Trimit ACK:
+Seq No: 71
+Checksum: 01000111
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 72
+[Mon Mar 24 22:50:21 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 72
+Payload: tum lacus lorem in nisi. Integer in posuere
+Checksum: 00001011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:21 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[sender] TIMEOUT: Se retrimite pachetul cu Seq No 72
+[Mon Mar 24 22:50:21 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 72
+Payload: tum lacus lorem in nisi. Integer in posuere
+Checksum: 00001011
+----------------------------------------------------------------
+[Mon Mar 24 22:50:21 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:21 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 72
+Payload: tum lacus lorem in nisi. Integer in posuere
+[Mon Mar 24 22:50:21 2014
+] [receiver] Trimit ACK:
+Seq No: 72
+Checksum: 01001000
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 73
+[Mon Mar 24 22:50:21 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 73
+Payload:  mauris. Nulla semper ante lectus, non euismod
+Checksum: 00111001
+----------------------------------------------------------------
+[Mon Mar 24 22:50:21 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:21 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 73
+Payload:  mauris. Nulla semper ante lectus, non euismod
+[Mon Mar 24 22:50:21 2014
+] [receiver] Trimit ACK:
+Seq No: 73
+Checksum: 01001001
+----------------------------------------------------------------
+[sender] Am primit ok totul, incepe trimiterea cadrului 74
+[Mon Mar 24 22:50:21 2014
+] [sender] Am trimis urmatorul pachet:
+Seq No: 74
+Payload:  orci suscipit 
+Checksum: 01101111
+----------------------------------------------------------------
+[Mon Mar 24 22:50:21 2014
+] [sender] Am pornit cronometrul (timeoutul este de 25 ms):
+[Mon Mar 24 22:50:21 2014
+] [receiver] Am primit urmatorul pachet:
+Seq No: 74
+Payload:  orci suscipit 
+[Mon Mar 24 22:50:21 2014
+] [receiver] Trimit ACK:
+Seq No: 74
+Checksum: 01001010
+----------------------------------------------------------------
